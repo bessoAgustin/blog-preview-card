@@ -11,8 +11,16 @@ body {
   margin: 0;
 }
 
+.article-img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 p{
   color: hsl(0, 0%, 7%);
+  font-size: 16px;
+  margin: 0;
 }
 
 p.datePub{
@@ -23,6 +31,16 @@ p.datePub{
 .title{
   font-size: 24px;
   font-weight: 800;
+  margin: 0;
+}
+
+.title a{
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+}
+
+a:hover{
+  color: hsl(47, 88%, 63%);
 }
 
 p.description{
@@ -34,10 +52,8 @@ p.description{
 .container {
   display: flex;
   flex-direction: column;
-  align-items: middle;
-  justify-content: center;
   background-color: hsl(210, 46%, 95%);
-  width: 327px;
+  width: 384px;
   height:fit-content;
   border: solid 1px hsl(0, 0%, 7%);
   box-shadow: 8px 8px hsl(0, 0%, 0%);
@@ -45,6 +61,16 @@ p.description{
   padding: 24px;
   gap: 1.5rem;
   background-color:hsl(0, 0%, 100%);
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: fit-content;
+  width: 100%;
+  padding: 0;
+  gap: 12px;
 }
 
 .category{
@@ -57,6 +83,8 @@ p.description{
   background-color: hsl(47, 88%, 63%);
   font-weight: 800;
   font-size: 14px;
+  gap: 8px;
+  letter-spacing: inherit;
 }
 
 .author-info {
@@ -64,6 +92,7 @@ p.description{
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  font-weight: 800;
 }
 
 .attribution {
