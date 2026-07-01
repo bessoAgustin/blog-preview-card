@@ -69,7 +69,7 @@ Regarding responsiveness:
   margin-top: auto;
   margin-bottom: auto;
   background-color: hsl(210, 46%, 95%);
-  max-width: 384px;
+  max-width: 24rem;
   width: 90%;
   height:fit-content;
   border: solid 1px hsl(0, 0%, 7%);
@@ -80,7 +80,13 @@ Regarding responsiveness:
   background-color:hsl(0, 0%, 100%);
 }
 ```
+I also installed the <strong>'px to rem'</strong> extension in VSCode to help me convert px values to rem values, which was very effective for this project.
 
+Finally, it was very interesting to learn about the `padding-bottom` and `padding-block-end` attribute differences, which are very similar but have different behaviors. I used `padding-block-end` in the `<body>` tag to ensure that the padding would be applied correctly regardless of the writing mode.
+
+```css
+padding-block-end: 1.5rem;
+```
 
 ### Continued development
 
