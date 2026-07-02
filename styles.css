@@ -7,6 +7,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -21,7 +23,6 @@ body {
   line-height: 150%;
   background-color: var(--color-yellow);
   min-height: 100vh;
-  margin: 0;
   gap: 2rem;
 }
 
@@ -34,7 +35,6 @@ body {
 p{
   color: var(--color-gray-950);
   font-size: 1rem;
-  margin: 0;
 }
 
 p.datePub{
@@ -45,7 +45,6 @@ p.datePub{
 .title{
   font-size: 1.5rem;
   font-weight: 800;
-  margin: 0;
 }
 
 .title a{
@@ -63,7 +62,7 @@ a:hover{
   font-weight: 500;
 }
 
-.container {
+main{
   display: flex;
   flex-direction: column;
   text-wrap: wrap;
@@ -87,7 +86,6 @@ a:hover{
   justify-content: flex-start;
   height: fit-content;
   width: 100%;
-  padding: 0;
   gap: .75rem;
 }
 
